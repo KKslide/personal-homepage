@@ -1158,3 +1158,12 @@ button.btn1:hover {
 	}
 }
 /*-- //responsive --*/
+
+/* add */
+figure.imghvr-shutter-in-out-diag-2{
+    background-size: cover;
+    background-position: center;
+}
+figure.imghvr-shutter-in-out-diag-2 img{
+    opacity: 0;
+}
