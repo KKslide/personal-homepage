@@ -16,7 +16,7 @@ body a:hover {
     text-decoration: none;
 }
 /*-- header --*/
-input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p a,.reply a,.agile_cat_grid_tags ul li a:hover,.agile_cat_grid ul.categories li a,.w3l_admin a,.w3ls_single_left_grid_right ul li a,.wthree_features_services_grid h4 a,.agile_services_bottom_grid_left_grid a,.simplefilter li,.agileinfo_footer_grid ul li a,.w3l_banner_info_left_grid1,.agile_blog_grid h4 a{
+input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p a,.reply a,.agile_cat_grid_tags ul li a:hover,.agile_cat_grid ul.categories li a,.w3l_admin a,.w3ls_single_left_grid_right ul li a,.wthree_features_hobbies_grid h4 a,.agile_hobbies_bottom_grid_left_grid a,.simplefilter li,.agileinfo_footer_grid ul li a,.w3l_banner_info_left_grid1,.agile_blog_grid h4 a{
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
@@ -86,7 +86,8 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-    background: url(../images/1.jpg) no-repeat 0px -85px;
+    /* background: url(../images/1.jpg) no-repeat 0px -85px; */
+    background: url(../images/banner2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -120,7 +121,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     text-decoration: none;
     border-radius: 30px;
     margin: 0;
-	background:none;
+	background:rgba(0, 0, 0, 0.39);
 }
 .w3-button a:hover{
     color: #FFFFFF;
@@ -327,7 +328,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 /*-- //banner --*/
 /*-- about --*/
-.about,.services,.gallery,.team,.contact,.subscribe{
+.about,.hobbies,.vlog,.fun_pic,.contact,.subscribe{
     padding: 6em 0 4em 0;
 }
 .wthree-heading{
@@ -369,46 +370,46 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	margin:1em 0 0 0;
 }
 /*-- //about --*/
-/*-- services --*/
-.services{
+/*-- hobbies --*/
+.hobbies{
     background: #f5f5f5;
 }
-.services-grids {
+.hobbies-grids {
     margin: 5em 0 0 0;
 }
-.w3-agileits-services-grid{
+.w3-agileits-hobbies-grid{
     padding: 1em;
 }
-.w3-agileits-services-grid i.fa.fa-cogs,.w3-agileits-services-grid i.fa.fa-comments,.w3-agileits-services-grid i.fa.fa-heart,.w3-agileits-services-grid i.fa.fa-plane,.w3-agileits-services-grid i.fa.fa-paper-plane,.w3-agileits-services-grid i.fa.fa-road{
+.w3-agileits-hobbies-grid i.fa.fa-cogs,.w3-agileits-hobbies-grid i.fa.fa-comments,.w3-agileits-hobbies-grid i.fa.fa-heart,.w3-agileits-hobbies-grid i.fa.fa-plane,.w3-agileits-hobbies-grid i.fa.fa-paper-plane,.w3-agileits-hobbies-grid i.fa.fa-road{
     color: #ff5301;
     font-size: 2em;
 }
-.w3-agileits-services-grid h4{
+.w3-agileits-hobbies-grid h4{
     color: #212121;
     font-size: 1em;
     font-weight: 600;
     margin: 1em 0;
 }
-.w3-agileits-services-grid p{
+.w3-agileits-hobbies-grid p{
     color: #999999;
     font-size: .9em;
     margin: 0;
     line-height: 1.8em;
 }
-.services-right h5{
+.hobbies-right h5{
 	color: #212121;
     font-size: 1em;
     margin: 0;
     line-height: 1.5em;
     font-weight: 600;
 }
-.services-right p{
+.hobbies-right p{
 	color: #999999;
     font-size: .9em;
     margin: 1em 0 0 0;
     line-height: 1.8em;
 }
-.services-right p span{
+.hobbies-right p span{
 	display:block;
 	margin:1em 0 0 0;
 }
@@ -450,9 +451,9 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 .w3_tab_img_left {
     margin: 2em 0 0;
 }
-/*-- //services --*/
-/*-- team --*/
-.team{
+/*-- //hobbies --*/
+/*-- fun_pic --*/
+.fun_pic{
 	background:url(../images/11.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
@@ -462,45 +463,45 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-.team-heading h3{
+.fun_pic-heading h3{
 	color:#FFFFFF;
 }
-.team-heading h4{
+.fun_pic-heading h4{
     color: rgba(255, 255, 255, 0.47);
 }
-.agileits-team-grids {
+.agileits-fun_pic-grids {
     margin: 5em 0 0 0;
 }
-.team-info{
+.fun_pic-info{
     position: relative;
     overflow: hidden;	
 }
-.team-info img{
+.fun_pic-info img{
 	width:100%;
 }
-.team-caption h4{
+.fun_pic-caption h4{
     color: #FFFFFF;
     font-size: 1.5em;
     font-weight: 600;
     margin: .5em 0 0 0;
 }
-.team-caption p{
+.fun_pic-caption p{
 	color: #ffb3ac;
     font-size: .9em;
     margin: 0;
 }
-.team-caption ul{
+.fun_pic-caption ul{
     padding: 0;
     margin: 1em 0 0 0;
 }
-.team-caption ul li{
+.fun_pic-caption ul li{
     display: inline-block;
 }
-.team-caption ul li a {
+.fun_pic-caption ul li a {
 	color: #333;
     text-align: center;
 }
-.team-caption ul li a i.fa.fa-facebook{
+.fun_pic-caption ul li a i.fa.fa-facebook{
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -513,10 +514,10 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.team-caption ul li a i.fa.fa-facebook:hover {
+.fun_pic-caption ul li a i.fa.fa-facebook:hover {
     background: #3b5998;
 }
-.team-caption ul li a i.fa.fa-twitter{
+.fun_pic-caption ul li a i.fa.fa-twitter{
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -529,10 +530,10 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.team-caption ul li a i.fa.fa-twitter:hover{
+.fun_pic-caption ul li a i.fa.fa-twitter:hover{
 	background: #55acee;
 }
-.team-caption ul li a i.fa.fa-rss{
+.fun_pic-caption ul li a i.fa.fa-rss{
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -545,10 +546,10 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.team-caption ul li a i.fa.fa-rss:hover{
+.fun_pic-caption ul li a i.fa.fa-rss:hover{
 	background: #f26522;
 }
-.team-caption {
+.fun_pic-caption {
     background: #ff5301;
     padding: 1em;
     position: absolute;
@@ -561,13 +562,13 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     transition: .5s all;
     -moz-transition: .5s all;
 }
-.team-info:hover .team-caption{
+.fun_pic-info:hover .fun_pic-caption{
     bottom: 0%;
 }
-.team-info:hover .team-caption {
+.fun_pic-info:hover .fun_pic-caption {
     bottom: 0%;
 }
-/*-- //team --*/
+/*-- //fun_pic --*/
 /*-- contact --*/
 .contact-form {
     margin: 5em 0 0 0;
@@ -903,7 +904,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/1.jpg) no-repeat 0px 0px;
+		background: url(../images/banner2.jpg) no-repeat center center;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -935,11 +936,11 @@ button.btn1:hover {
 	.agileits-about-grid:nth-child(2) {
 		margin: 2em 0 0 0;
 	}
-	.w3-agileits-services-grid {
+	.w3-agileits-hobbies-grid {
 		float: left;
 		width: 50%;
 	}
-	.services-right {
+	.hobbies-right {
 		margin: 2em 0 0 0;
 	}
 	.nav-tabs {
@@ -949,11 +950,11 @@ button.btn1:hover {
 		float: left;
 		width: 50%;
 	}
-	.agileits-team-grid {
+	.agileits-fun_pic-grid {
 		float: left;
 		width: 50%;
 	}
-	.agileits-team-grid:nth-child(3),.agileits-team-grid:nth-child(4){
+	.agileits-fun_pic-grid:nth-child(3),.agileits-fun_pic-grid:nth-child(4){
 		margin:2em 0 0 0;
 	}
 	.contact-form input[type="text"] {
@@ -1035,14 +1036,14 @@ button.btn1:hover {
 		font-size: 3em;
 	}
 	.banner {
-		background: url(../images/1.jpg) no-repeat -167px 0px;
+		background: url(../images/banner2.jpg) no-repeat -167px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
 	}
-	.about, .services, .gallery, .team, .contact, .subscribe {
+	.about, .hobbies, .vlog, .fun_pic, .contact, .subscribe {
 		padding: 4em 0 2em 0;
 	}
 	.wthree-heading h4 {
@@ -1052,7 +1053,7 @@ button.btn1:hover {
 	.agileits-about-grids {
 		margin: 3em 0 0 0;
 	}
-	.services-grids {
+	.hobbies-grids {
 		margin: 3em 0 0 0;
 	}
 	.nav-tabs > li > a {
@@ -1061,7 +1062,7 @@ button.btn1:hover {
 	.nav-tabs {
 		margin: 3em auto 0em;
 	}
-	.agileits-team-grids {
+	.agileits-fun_pic-grids {
 		margin: 3em 0 0 0;
 	}
 	.contact-form {
@@ -1084,7 +1085,7 @@ button.btn1:hover {
 	.wthree-heading h4 {
 		left: 41%;
 	}
-	.w3-agileits-services-grid {
+	.w3-agileits-hobbies-grid {
 		float: none;
 		width: 100%;
 		padding: 1em 0;
@@ -1092,11 +1093,11 @@ button.btn1:hover {
 	.nav-tabs > li {
 		margin: 0 3px 3px 0;
 	}
-	.team-caption {
+	.fun_pic-caption {
 		padding: .5em;
 		height: 126px;
 	}
-	.team-caption h4 {
+	.fun_pic-caption h4 {
 		font-size: 1em;
 	}
 	.map-grid iframe {
@@ -1110,10 +1111,10 @@ button.btn1:hover {
 	.banner {
 		padding: 1em 0 2em;
 	}
-	.about, .services, .gallery, .team, .contact, .subscribe {
+	.about, .hobbies, .vlog, .fun_pic, .contact, .subscribe {
 		padding: 3em 0 2em 0;
 	}
-	.services-right {
+	.hobbies-right {
 		margin: 1em 0 0 0;
 	}
 	.nav-tabs {
