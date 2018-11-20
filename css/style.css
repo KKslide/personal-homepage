@@ -112,6 +112,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     font-size: 1em;
     margin: 3em 0;
     letter-spacing: 2px;
+    white-space: nowrap;
 }
 .w3-button a{
 	color: #FFFFFF;
@@ -454,7 +455,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //hobbies --*/
 /*-- fun_pic --*/
 .fun_pic{
-	background:url(../images/11.jpg) no-repeat 0px 0px;
+	background:url(../images/ttt.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .jarallax {
@@ -469,7 +470,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 .fun_pic-heading h4{
     color: rgba(255, 255, 255, 0.47);
 }
-.agileits-fun_pic-grid {
+.agileits-fun_pic-grids {
     margin: 5em 0 0 0;
 }
 .fun_pic-info{
@@ -783,7 +784,13 @@ button.btn1:hover {
 }
 .w3ls-post-img{
 	float:left;
-	width:20%;
+    width:20%;
+    padding-top:20%;
+    float: left;
+    width: 20%;
+    padding-top: 20%;
+    background-size: cover;
+    background-position: center center;
 }
 .w3ls-post-img a img{
 	width:100%;
@@ -1166,4 +1173,17 @@ figure.imghvr-shutter-in-out-diag-2{
 }
 figure.imghvr-shutter-in-out-diag-2 img{
     opacity: 0;
+}
+
+.agileits-fun_pic-grid .fun_pic-info .fun_pic_pic{
+    width: 100%;
+    padding-top: 56.25%;
+    background: rgba(0,0,0,.8) no-repeat center;
+    background-size: cover;
+}
+
+@media (min-width: 992px){
+    .col-md-4.agileits-fun_pic-grid{
+        margin-bottom: 2em;
+    }
 }
