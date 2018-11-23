@@ -24,5 +24,5 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 app.listen(80, () => {
-    console.log('http://127.0.0.1');
+    console.log('http://47.107.164.180');
 })
