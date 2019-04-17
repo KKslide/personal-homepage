@@ -87,7 +87,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- banner --*/
 .banner{
     /* background: url(../images/1.jpg) no-repeat 0px -85px; */
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(http://wx4.sinaimg.cn/large/722c1623gy1g25clicjxoj218g0nkguz.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -505,7 +505,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //hobbies --*/
 /*-- fun_pic --*/
 .fun_pic{
-	background:url(../images/ttt.jpg) no-repeat 0px 0px;
+	background:url(http://wx3.sinaimg.cn/large/722c1623gy1g25d275w3xj21hc0i6q51.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .jarallax {
@@ -961,7 +961,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/banner2.jpg) no-repeat center center;
+		background: url(http://wx4.sinaimg.cn/large/722c1623gy1g25clicjxoj218g0nkguz.jpg) no-repeat center center;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1093,7 +1093,7 @@ button.btn1:hover {
 		font-size: 3em;
 	}
 	.banner {
-		background: url(../images/banner2.jpg) no-repeat -167px 0px;
+		background: url(http://wx4.sinaimg.cn/large/722c1623gy1g25clicjxoj218g0nkguz.jpg) no-repeat -167px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
