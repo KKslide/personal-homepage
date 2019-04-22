@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll_content">
 
 <head>
 	<title>Home</title>
@@ -614,12 +614,7 @@
 <script src="js/jquery.tools.min.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/jquery.cm-overlay.js"></script>
-<script type="text/javascript">
-		$(".scroll").click(function (event) {
-			event.preventDefault();
-			$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 600);
-		});
-</script>
+<script src="js/jquery.nicescroll.min.js"></script>
 <script>
 	$(function () {
 		$("#slider4").responsiveSlides({
@@ -629,7 +624,11 @@
 			speed: 500,
 			namespace: "callbacks"
 		});
-
+		$(".scroll").click(function (event) {
+			event.preventDefault();
+			$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 600);
+		});
+		$(".scroll_content").niceScroll({cursorborder:"",cursorcolor:"rgba(0,0,0,0)",boxzoom:true});
 	});
 </script>
 <!-- here stars scrolling icon -->
